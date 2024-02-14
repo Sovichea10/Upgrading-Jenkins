@@ -28,6 +28,11 @@ Execute repetitive tasks, save time, and optimize your development process with 
 # Backup and Restore Date of Old Version
 By default, all data would be stored in `/var/lib/jenkins`
 
+### Create Backup folder and Copy to it
+```
+sudo mkdir /backups-jenkins2.346.3 && sudo cp /var/lib/jenkins /backups-jenkins2.346.3
+```
+
 # Upgrading-Jenkins
 Step-to-upgrade-jenkins.
 See upgrade documentation: https://www.jenkins.io/doc/upgrade-guide/
