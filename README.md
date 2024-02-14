@@ -56,7 +56,41 @@ See upgrade documentation: https://www.jenkins.io/doc/upgrade-guide/
 
 - From 2.361.1 to 2.361.4 (Patch Version)
 
-  *No notable changes requiring upgrade notes.*
+  *No notable changes requiring upgrade notes. So able to skip these patch version*
 
+- From 2.361.1 to 2.375.1 (Minor Version)
+  
+  ▶ Update some functionalities - Winstone and Jetty
+
+  ▶ Remove flags which no longer serve a purpose with Java 11 or newer
+
+- From 2.375.1 to 2.375.3 (Patch Version)
+
+  *No notable changes requiring upgrade notes. So able to skip these patch version*
+
+- From 2.375.1 to 2.375.4 (Patch Version)
+
+  ▶ Security fix for DoS vulnerability
+
+- From 2.375.4 to 2.387.1 (Minor Version)
+
+  ▶ De-duplicate logging implementations
+
+  ▶ Set a default file size rotation of AsyncPeriodicWork/AsyncAperiodicWork
+
+  ▶ Upgrade required Remoting version from 4.2.1 to 4.7
+
+- From 2.387.1 to 2.387.2 (Patch Version)
+
+  ▶ Repository Signing Key Update
+     Debian/Ubuntu
+  ```
+    curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+      /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+    echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+      https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+      /etc/apt/sources.list.d/jenkins.list > /dev/null
+  ```
+  
   
   
