@@ -29,4 +29,4 @@ Execute repetitive tasks, save time, and optimize your development process with 
 Step-to-upgrade-jenkins.
 See upgrade documentation: https://www.jenkins.io/doc/upgrade-guide/
 
-## Currently. We're using version 2.346.3
+Currently. We're using version 2.346.3
