@@ -39,9 +39,11 @@ Another way, we can use Jenkins Plugin called "ThinBackup" to backup and restore
 Step-to-upgrade-jenkins.
 See upgrade documentation: https://www.jenkins.io/doc/upgrade-guide/
 
-*Currently. We're using version 2.346.3*. 
+*Currently. We're using version 2.346.3, openjdk version 11.0.21*. 
 
 ## Step to upgrade
 - From 2.346.3 to 2.361.1 (Minor version)
+  
   ▶ Jenkins requires Java 11 or newer
+  
   ▶ Use Versions Node Monitors plugin to verify that agents are running a compatible version of Java.
