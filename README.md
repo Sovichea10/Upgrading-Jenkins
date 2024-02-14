@@ -26,7 +26,7 @@ Use Jenkins to automate your development workflow, so you can focus on work that
 Execute repetitive tasks, save time, and optimize your development process with Jenkins.
 
 # Backup and Restore Date of Old Version
-By default, all data would be stored in /var/lib/jenkins
+By default, all data would be stored in <span style="background-color: #FFFF00">/var/lib/jenkins</span>
 
 # Upgrading-Jenkins
 Step-to-upgrade-jenkins.
