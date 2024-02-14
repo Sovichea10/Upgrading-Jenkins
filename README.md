@@ -47,5 +47,16 @@ See upgrade documentation: https://www.jenkins.io/doc/upgrade-guide/
   ▶ Jenkins requires Java 11 or newer
   
   ▶ Use `Versions Node Monitors` plugin to verify that agents are running a compatible version of Java.
+  
   ▶ Update Jetty version to support OpenSSL
+
+  ▶ Updated minimum supported remoting version
+
+  ▶ New plugins will be automatically installed
+
+- From 2.361.1 to 2.361.4 (Patch Version)
+
+  *No notable changes requiring upgrade notes.*
+
+  
   
