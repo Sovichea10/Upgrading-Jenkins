@@ -56,7 +56,7 @@ See upgrade documentation: https://www.jenkins.io/doc/upgrade-guide/
 
 - From 2.361.1 to 2.361.4 (Patch Version)
 
-  *No notable changes requiring upgrade notes. So able to skip these patch version*
+  *No notable changes requiring upgrade notes.*
 
 - From 2.361.1 to 2.375.1 (Minor Version)
   
@@ -66,7 +66,7 @@ See upgrade documentation: https://www.jenkins.io/doc/upgrade-guide/
 
 - From 2.375.1 to 2.375.3 (Patch Version)
 
-  *No notable changes requiring upgrade notes. So able to skip these patch version*
+  *No notable changes requiring upgrade notes.*
 
 - From 2.375.1 to 2.375.4 (Patch Version)
 
@@ -97,13 +97,45 @@ See upgrade documentation: https://www.jenkins.io/doc/upgrade-guide/
   ▶ XStream2 unable to round-trip ASCII NUL - Jenkins has switched from using KXm12Driver to StandardStaxDriver. Due to this change, Jenkins XML files can no longer save text content with the ASCII NUL character (U+0000). In particular, if you are using the <a href="https://plugins.jenkins.io/junit/">JUnit Plugin</a> to publish test results, be sure to update it to the <a href= "https://plugins.jenkins.io/junit/releases/">latest version</a> to avoid problems with new builds. Test results published with older versions of the plugin will remain unreadable.
 
 - From 2.387.3 to 2.401.1 (Minor Version)
+  
   ▶ Simplify loading of JavaScript and CSS - Jenkins JS module has been removed from Jenkins Core. <a href="https://plugins.jenkins.io/dependency-track/">OWASP Dependency Track</a> plugin must upgrade to 4.3.1 or newer. <a href="https://plugins.jenkins.io/servicenow-cicd/"> ServiceNow CI/CD</a> plugin must upgrade to 2.1 or newer.
 
 - From 2.401.1 to 2.401.3 (Patch Version)
   
-  *No notable changes requiring upgrade notes. So able to skip these patch version*
+  *No notable changes requiring upgrade notes.*
 
 - From 2.401.1 to 2.414.1 (Minor Version)
-  ▶
   
+  ▶ Jenkins sign-in page update
+
+  ▶ Remove dependency on jenkins-js-modules
+
+- From 2.414.1 to 2.414.2 (Patch Version)
+
+  ▶ Jenkins sign-in page update
+
+- From 2.414.2 to 2.414.3 (Patch Version)
+  
+  *No notable changes requiring upgrade notes.*
+
+- From 2.414.2 to 2.426.1 (Minor Version)
+  
+  ▶ Java OpenJDK 21 supported
+
+  ▶ Prototype removed from Jenkins
+
+  ▶ Appearance system configuration breaks JCasC (Custom Theme)
+
+  ▶ Minimum required Remoting version updated to 4.13
+
+  ▶ Treeview option removed for artifactList
+
+  ▶ Remove System V initialization script
+
+  ▶ End of support for Red Hat Enterprise Linux 7 and is derivatives
+
+- From 2.426.1 to 2.426.3 (Patch Version)
+
+  *No notable changes requiring upgrade notes.*
+
   
