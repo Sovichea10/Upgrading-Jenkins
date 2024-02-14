@@ -91,6 +91,9 @@ See upgrade documentation: https://www.jenkins.io/doc/upgrade-guide/
       https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
       /etc/apt/sources.list.d/jenkins.list > /dev/null
   ```
-  
+
+- From 2.387.2 to 2.387.3 (Patch Version)
+
+  ▶ XStream2 unable to round-trip ASCII NUL - Jenkins has switched from using KXm12Driver to StandardStaxDriver. Due to this change, Jenkins XML files can no longer save text content with the ASCII NUL character (U+0000). In particular, if you are using the <a href="https://www.w3schools.com">Visit W3Schools</a> to publish test results, be sure to update it to the latest version to avoid problems with new builds. Test results published with older versions of the plugin will remain unreadable.
   
   
