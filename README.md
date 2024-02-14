@@ -45,6 +45,8 @@ See upgrade documentation: https://www.jenkins.io/doc/upgrade-guide/
 - From 2.346.3 to 2.361.1 (Minor version)
   
   ▶ Jenkins requires Java 11 or newer
+
+  ▶ Available Plugin to backup Jenkins called "ThinBackup"
   
   ▶ Use `Versions Node Monitors` plugin to verify that agents are running a compatible version of Java.
   
