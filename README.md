@@ -33,6 +33,8 @@ By default, all data would be stored in `/var/lib/jenkins`
 sudo mkdir /backups-jenkins2.346.3 && sudo cp /var/lib/jenkins /backups-jenkins2.346.3
 ```
 
+Another way, we can use Jenkins Plugin called "ThinBackup" to backup and restore Jenkins. See here: https://plugins.jenkins.io/thinBackup/
+
 # Upgrading-Jenkins
 Step-to-upgrade-jenkins.
 See upgrade documentation: https://www.jenkins.io/doc/upgrade-guide/
