@@ -98,5 +98,12 @@ See upgrade documentation: https://www.jenkins.io/doc/upgrade-guide/
 
 - From 2.387.3 to 2.401.1 (Minor Version)
   ▶ Simplify loading of JavaScript and CSS - Jenkins JS module has been removed from Jenkins Core. <a href="https://plugins.jenkins.io/dependency-track/">OWASP Dependency Track</a> plugin must upgrade to 4.3.1 or newer. <a href="https://plugins.jenkins.io/servicenow-cicd/"> ServiceNow CI/CD</a> plugin must upgrade to 2.1 or newer.
+
+- From 2.401.1 to 2.401.3 (Patch Version)
+  
+  *No notable changes requiring upgrade notes. So able to skip these patch version*
+
+- From 2.401.1 to 2.414.1 (Minor Version)
+  ▶
   
   
