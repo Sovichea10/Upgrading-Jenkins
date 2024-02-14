@@ -95,5 +95,8 @@ See upgrade documentation: https://www.jenkins.io/doc/upgrade-guide/
 - From 2.387.2 to 2.387.3 (Patch Version)
 
   ▶ XStream2 unable to round-trip ASCII NUL - Jenkins has switched from using KXm12Driver to StandardStaxDriver. Due to this change, Jenkins XML files can no longer save text content with the ASCII NUL character (U+0000). In particular, if you are using the <a href="https://plugins.jenkins.io/junit/">JUnit Plugin</a> to publish test results, be sure to update it to the <a href= "https://plugins.jenkins.io/junit/releases/">latest version</a> to avoid problems with new builds. Test results published with older versions of the plugin will remain unreadable.
+
+- From 2.387.3 to 2.401.1 (Minor Version)
+  ▶ Simplify loading of JavaScript and CSS - Jenkins JS module has been removed from Jenkins Core. <a href="https://plugins.jenkins.io/dependency-track/">OWASP Dependency Track</a> plugin must upgrade to 4.3.1 or newer. <a href="https://plugins.jenkins.io/servicenow-cicd/"> ServiceNow CI/CD</a> plugin must upgrade to 2.1 or newer.
   
   
