@@ -73,5 +73,5 @@ See [adopters](https://www.jenkins.io/project/adopters/) for the list of Jenkins
 Jenkins is **licensed** under the **[MIT License](https://github.com/jenkinsci/jenkins/blob/master/LICENSE.txt)**.
 
 # Upgrading-Jenkins
-Step-to-upgrade-jenkins
+Step-to-upgrade-jenkins.
 See upgrade documentation: https://www.jenkins.io/doc/upgrade-guide/
