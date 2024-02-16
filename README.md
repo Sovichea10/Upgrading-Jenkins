@@ -26,7 +26,9 @@ Use Jenkins to automate your development workflow, so you can focus on work that
 Execute repetitive tasks, save time, and optimize your development process with Jenkins.
 
 # Installation
-Commonly steps to install <a href="https://alexrchirea.medium.com/how-to-install-jenkins-on-ubuntu-20-04-using-a-digitalocean-droplet-95a871e5410b">here</a>
+Common steps to install <a href="https://alexrchirea.medium.com/how-to-install-jenkins-on-ubuntu-20-04-using-a-digitalocean-droplet-95a871e5410b">here</a> on Ubuntu
+
+📝 In order to install <a href="https://directdevops.blog/2019/01/04/installing-specific-lts-version-of-jenkins-on-ubuntu/">specific</a> version 
 
 # Backup and Restore Data of Old Version
 By default, all data would be stored in `/var/lib/jenkins`
