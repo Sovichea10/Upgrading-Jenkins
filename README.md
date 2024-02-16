@@ -40,9 +40,9 @@ sudo mkdir /backups-jenkins2.346.3 && sudo cp /var/lib/jenkins /backups-jenkins2
 
 Another way, we can use Jenkins Plugin called "ThinBackup" to backup and restore Jenkins. 
 
-See here: https://plugins.jenkins.io/thinBackup/
+📂 See here: https://plugins.jenkins.io/thinBackup/
 
-Tutorial Video: https://www.youtube.com/watch?v=5Tb-AOUFuKQ
+🎞️ Tutorial Video: https://www.youtube.com/watch?v=5Tb-AOUFuKQ
 
 # Upgrading-Jenkins
 Step-to-upgrade-jenkins.
